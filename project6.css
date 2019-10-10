@@ -109,7 +109,7 @@ main
 {
 	display:flex;
 	flex-direction:row;
-	width:400px;
+	width:600px;
 	margin:auto;
 }
 
@@ -122,6 +122,9 @@ main
 {
 	display:flex;
 	flex-direction:row;
+	position:relative;
+	top:30px;
+	margin:20px;
 }
 
 .meterZone img
@@ -131,7 +134,8 @@ main
 
 .love
 {
-	
+	position:relative;
+	left:30px;
 }
 
 #peach
