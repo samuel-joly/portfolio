@@ -105,6 +105,12 @@ main
 }
 
 
+#infoZone h1 a
+{
+	text-decoration:none;
+	color:black;
+}
+
 .meter
 {
 	display:flex;
@@ -123,7 +129,7 @@ main
 	display:flex;
 	flex-direction:row;
 	position:relative;
-	top:30px;
+	top:10px;
 	margin:20px;
 }
 
