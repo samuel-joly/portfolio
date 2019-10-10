@@ -63,7 +63,7 @@ main
 {
 	margin:30px;
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	justify-content:space-between;
 	flex-wrap:wrap;
 	width:1140px;
@@ -104,6 +104,36 @@ main
 	border-bottom:2px dotted orange
 }
 
+
+.meter
+{
+	display:flex;
+	flex-direction:row;
+	width:400px;
+	margin:auto;
+}
+
+.meter h3
+{
+	font-size:2em;
+}
+
+.meterZone
+{
+	display:flex;
+	flex-direction:row;
+}
+
+.meterZone img
+{
+	height:40px;
+}
+
+.love
+{
+	
+}
+
 #peach
 {
 	position:absolute;
@@ -118,30 +148,4 @@ main
 	0%{bottom:30px;}
 	50%{bottom:400px;}
 	100%{bottom:30px;}
-}
-
-.meter
-{
-	position:relative;
-}
-
-.meter h3
-{
-	width:100px;
-}
-
-.meterZone
-{
-	display:flex;
-	flex-direction:row;
-}
-
-.meterZone img
-{
-	height:18px;
-}
-
-.love
-{
-	
 }
