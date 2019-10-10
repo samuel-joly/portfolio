@@ -64,6 +64,8 @@ main
 	flex-direction:row;
 	justify-content:space-between;
 	flex-wrap:wrap;
+	width:1119px;
+	margin:auto;
 }
 
 /*=============================PAPER===========================*/
@@ -75,6 +77,7 @@ main
 	border-radius:5px;
 	background-color:white;
 	box-shadow:3px 3px 8px lightgrey;
+	margin-top:70px;
 }
 
 .paper:hover
@@ -166,7 +169,8 @@ main
 {
 	display:flex;
 	flex-direction:row;
-	width:450px;
+	width:369px;
+	margin:auto;
 }
 
 .infoProject>div
@@ -183,6 +187,11 @@ main
 {
 	width:25px;
 	margin:auto;
+}
+
+.number
+{
+	border-left:1px dotted orange;
 }
 
 .moreButton
