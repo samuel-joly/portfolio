@@ -187,8 +187,14 @@ main
 {
 	width:25px;
 	margin:auto;
+	border-radius:50%;
 }
 
+
+.infoProject a img:hover
+{
+	background-color:lightgrey;
+}
 .number
 {
 	border-left:1px dotted orange;
