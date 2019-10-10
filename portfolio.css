@@ -1,0 +1,205 @@
+body
+{
+	margin:0px;
+}
+
+
+
+/*==========================ACCUEIL==========================*/
+
+header
+{
+	display:flex;
+	flex-direction:row;
+	height:70px;
+	justify-content:flex-start;
+	background-color:black;
+}
+
+header img
+{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	margin:10px 0 10px 10px;
+}
+
+header img:hover
+{
+	transition:all 0.5s ease;
+	border:1px solid white;
+}
+
+header nav
+{
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row;
+	width:500px;
+	align-items:center;
+}
+
+header nav a
+{
+	font-size:1.7em;
+	text-decoration:none;
+	color:white;
+	padding-bottom:0px;
+	border-right:1px solid white;
+	padding-right:60px;
+}
+
+header nav a:hover
+{
+	transition:all 0.5s ease;
+	color:lightgrey;
+	border-color:white;
+}
+
+
+main
+{
+	margin:30px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+/*=============================PAPER===========================*/
+
+.paper
+{
+	width:450px;
+	height:600px;
+	border-radius:5px;
+	background-color:white;
+	box-shadow:3px 3px 8px lightgrey;
+}
+
+.paper:hover
+{
+	transition:box-shadow 0.5s ease;
+	box-shadow:3px 3px 8px grey;
+}
+
+.imgZone img
+{
+	width:450px;
+	height:225px;
+	border-radius:5px 5px 0 0;
+}
+
+.circleSkill
+{
+	border-radius:50%;
+	box-shadow:3px 3px 8px lightgrey;
+	background-image:url("img/htmlcss.png");
+	background-size:cover;
+	height:120px;
+	width:120px;
+	margin:auto;
+	position:relative;
+	bottom:70px;
+}
+
+.circleSkill img
+{
+	height:150px;	
+}
+
+.meter
+{
+	position:relative;
+	top:-140px;
+	left:15px;
+}
+
+.meterZone
+{
+	display:flex;
+	flex-direction:row;
+}
+
+.meterZone img
+{
+	height:18px;
+	margin-top:-10px;
+}
+
+.love
+{
+	left:315px;
+	top:-210px;
+}
+
+.projectTitle
+{
+	text-align:center;
+	width:280px;
+	margin:auto;
+	margin-top:28px;
+	border-bottom:2px solid orange;
+}
+
+.projectTitle a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.projectTitle:hover
+{
+	transition:border 0.4s ease;
+	border-bottom:2px solid black;
+}
+
+
+.resume
+{
+	margin:20px;
+	margin-top:-230px;
+	text-align:justify;
+}
+
+.infoProject
+{
+	display:flex;
+	flex-direction:row;
+	width:450px;
+}
+
+.infoProject>div
+{
+	border-right:1px dotted orange;
+	width:133px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+}
+
+.infoProject img
+{
+	width:25px;
+	margin:auto;
+}
+
+.moreButton
+{
+	background-color:orange;
+	border-radius:20px;
+	text-decoration:none;
+	color:black;
+	font-size:1.3em;
+	padding:5px;
+	position:relative;
+	left:380px;
+	top:20px;
+}
+
+.moreButton:hover
+{
+	transition:color 0.3s ease;
+	color:white;
+}
