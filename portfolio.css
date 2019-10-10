@@ -99,13 +99,23 @@ main
 {
 	border-radius:50%;
 	box-shadow:3px 3px 8px lightgrey;
-	background-image:url("img/htmlcss.png");
+	
 	background-size:cover;
 	height:120px;
 	width:120px;
 	margin:auto;
 	position:relative;
 	bottom:70px;
+}
+
+.circleHTML
+{
+	background-image:url("img/htmlcss.png");
+}
+
+.circleGit
+{
+	background-image:url("img/gitlogo.png");
 }
 
 .circleSkill img
