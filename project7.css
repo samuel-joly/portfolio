@@ -1,1 +1,113 @@
- 
+body
+{
+	margin:0px;
+	background-image:url("img/bg.jpg");
+	background-size:120%;
+}
+
+
+
+/*==========================MAIN==========================*/
+
+header
+{
+	display:flex;
+	flex-direction:row;
+	height:70px;
+	justify-content:flex-start;
+	background-color:black;
+}
+
+header img
+{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	margin:10px 0 10px 10px;
+}
+
+header img:hover
+{
+	transition:all 0.5s ease;
+	border:1px solid white;
+}
+
+header nav
+{
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row;
+	width:500px;
+	align-items:center;
+}
+
+header nav a
+{
+	font-size:1.7em;
+	text-decoration:none;
+	color:white;
+	padding-bottom:0px;
+	border-right:1px solid white;
+	padding-right:60px;
+}
+
+header nav a:hover
+{
+	transition:all 0.5s ease;
+	color:lightgrey;
+	border-color:white;
+}
+
+
+main
+{
+	margin:30px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	width:1140px;
+	margin:auto;
+	background-color:white;
+}
+
+
+
+/*==============================PROJECT DESCRIPTION================================*/
+
+#topImg
+{
+	width:1130px;
+	margin:5px;
+}
+
+#infoZone
+{
+	width:1000px;
+	margin:auto;
+}
+
+#infoZone p
+{
+	text-align:justify;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size:1.4em;
+}
+
+#infoZone h1
+{
+	text-align:center;
+	width:400px;
+	margin:auto;
+	border-bottom:2px dotted orange
+}
+
+
+#infoZone h1 a
+{
+	text-decoration:none;
+	color:black;
+}
+
