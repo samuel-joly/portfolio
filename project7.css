@@ -111,3 +111,63 @@ main
 	color:black;
 }
 
+.meter
+{
+	display:flex;
+	flex-direction:row;
+	width:750px;
+	margin:auto;
+}
+
+.meter h3
+{
+	font-size:2em;
+}
+
+.meterZone
+{
+	display:flex;
+	flex-direction:row;
+	position:relative;
+	top:10px;
+	margin:20px;
+}
+
+.meterZone img
+{
+	height:40px;
+}
+
+.love
+{
+	position:relative;
+	left:30px;
+}
+
+.slider
+{
+	height:110px;
+	width:1000px;
+	overflow:hidden;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+
+.slider p
+{
+	position:relative;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	animation-name:goRight;
+}
+
+@keyframes goRight
+{
+	0%{bottom:-50px}
+	50%{bottom:70px;}
+	100%{bottom:-50px;}
+	
+}
+
+
