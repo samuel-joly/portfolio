@@ -1,0 +1,245 @@
+@font-face
+{
+	font-family:"Kaushan";
+	src:url("Expressa.ttf");
+}
+
+
+body
+{
+	display:flex;
+	flex-direction:column;
+	margin:0px;
+	background-color:#b3b3b3;
+}
+
+#titleImg
+{
+	position:relative;
+	width:300px;
+	margin:auto;
+	z-index:2;
+	animation-name:introImg;
+	animation-duration:2s;
+	animation-interation-count:1;
+	animation-fill-mode:forwards;
+}
+
+#topTitle
+{
+	font-family:"Kaushan";
+	position:relative;
+	width:150px;
+	top:-190px;
+	left:46%;
+	text-align:center;
+	font-size:3em;
+	z-index:1;
+	animation-name:introText;
+	animation-duration:2s;
+	animation-interation-count:1;
+	animation-fill-mode:forwards;
+}
+
+.green
+{
+	color:lightgreen;
+}
+
+#topSecondTitle
+{
+	font-family:"Kaushan";
+	position:relative;
+	top:-10px;
+	text-align:center;
+	font-size:2.5em;
+	animation-name:introSecondText;
+	animation-duration:2s;
+	animation-interation-count:1;
+	animation-fill-mode:forwards;
+}
+
+@keyframes introText
+{
+	from{left:42;}
+	to{left:55%;}
+}
+
+@keyframes introImg
+{
+	from{right:0px;}
+	to{right:50px;}
+}
+
+@keyframes introSecondText
+{
+	from{top:-10px;}
+	to{top:-190px;}
+}
+
+#topBar
+{
+	width:100%;
+	height:70px;
+	position:relative;
+	top:-200px;
+	z-index:2;
+}
+
+#topBar nav ul
+{
+	list-style:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+#topBar nav ul li 
+{
+	font-family:"Kaushan";
+	font-size:2em;
+	margin-top:15px;
+}
+
+
+#topBar nav ul li a:hover
+{
+	transition:color 1s ease;
+	color:green;
+}
+
+#topBar nav ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.row
+{
+	display:flex;
+	flex-direction:row;
+	width:80%;
+	margin:auto;
+	background-color:white;
+	margin-top:20px;
+}
+
+.row img
+{
+	width:45%;
+	margin-top:15px;
+}
+
+.descriptionZone
+{
+	margin-top:80px;
+	margin-left:40px;
+}
+
+.descriptionZone h1
+{
+	font-family:"Kaushan";
+	text-align:center;
+	border-bottom:2px solid lightgreen;
+	margin-bottom:30px;
+}
+
+.descriptionZone p
+{
+	font-size:1.3em;
+	width:800px;
+	margin:auto;
+	text-align:center;
+}
+
+
+#firstRow div
+{
+	margin-top:150px;
+}
+
+#secondRow div
+{
+	margin-top:130px;
+}
+
+#thirdRow div h1
+{
+	margin-right:30px;
+}
+
+#thirdRow
+{
+	margin-bottom:30px;
+}
+
+#thirdRow div
+{
+	margin:auto;
+}
+
+#download
+{
+	display:flex;
+	flex-direction:row;
+	width:200px;
+	margin:auto;
+	margin-bottom:70px;
+}
+
+#download a
+{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	text-decoration:none;
+	color:green;
+	transition:width 1s ease;
+}
+
+#download a img
+{
+	width:100px;
+}
+
+#download a img:hover
+{
+	width:120px;
+	height:120px;
+}
+
+#goBack
+{
+	top:10px;
+	position:fixed;
+	width:57px;
+	height:55px;
+	border-radius:50%;
+	background-color:grey;
+}
+
+#goBack img
+{
+	position:fixed;
+	top:15px;
+	left:5px;
+	width:50px;
+}
+
+#goBack
+{
+	top:10px;
+	position:fixed;
+	width:57px;
+	height:55px;
+	border-radius:50%;
+	background-color:grey;
+}
+
+#goBack img
+{
+	position:fixed;
+	top:15px;
+	left:5px;
+	width:50px;
+}

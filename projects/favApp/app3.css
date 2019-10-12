@@ -1,0 +1,86 @@
+body
+{
+	background-image:url("https://beatnightmx.com/wp-content/uploads/2017/07/dash-berlin-greeted-by-people-hd-wallpaper-picture-ultra-music-fest-2013-wmc-miami3-759x500.jpg");
+	background-size:cover;
+}
+
+
+@font-face
+{
+	font-family:"bpreplay";
+	src:url("bpreplay.otf")
+}
+
+.orange 
+{
+	color:orange;
+}
+
+#topTitle
+{
+	text-align:center;
+	font-size:2.5em;
+}
+
+#secondTitle
+{
+	text-align:center;
+	margin-top:-30px;
+}
+
+#content
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+
+.paper
+{
+	width:500px;
+	height:700px;
+	background-color:#f3f3f3;
+	border:1px solid #e3e3e3;
+	margin:40px;
+	border-radius:7px;
+}
+
+.paper img
+{
+	width:500px;
+	height:300px;
+}
+
+.paper h1
+{
+	text-align:center;
+}
+
+
+.paper p
+{
+	text-align:justify;
+	width:400px;
+	height:300px;
+	margin:auto;
+	font-size:1.4em;
+}
+
+#goBack
+{
+	top:10px;
+	position:fixed;
+	width:57px;
+	height:55px;
+	border-radius:50%;
+	background-color:grey;
+}
+
+#goBack img
+{
+	position:fixed;
+	top:15px;
+	left:10px;
+	width:50px;
+}

@@ -1,0 +1,235 @@
+body
+{
+	background-image:url("https://wallpapertag.com/wallpaper/full/4/7/2/135870-low-poly-background-1920x1080-for-windows.jpg");
+	background-size:cover;
+}
+
+/* ================================TOP TITLE================================ */
+
+@font-face
+{
+	font-family:"vampire";
+	src:url("vampire.otf");
+}
+
+#topTitle h1
+{
+	font-size:5em;
+	text-align:center;
+	font-family:"vampire";
+}
+
+.red
+{
+	color:red;
+}
+
+#topTitle h2
+{
+	font-size:2em;
+	text-align:center;
+	margin-top:-50px;
+	font-family:"vampire";
+	padding:4px;
+}
+
+#topTitle h2 span
+{
+	border-bottom:3px solid red;
+}
+
+/* =============================MAIN============================= */
+
+main
+{
+	width:90%;
+	margin:auto;
+	background-color:rgba(255,255,255,0.7);
+	background-siwe:cover;
+}
+
+#fRow
+{
+	display:flex;
+	flex-direction:row;
+}
+
+#fRow h1
+{
+	margin-left:15px;
+	border-bottom:2px solid #b2b2b2;
+	width:320px;
+	margin:auto;
+	margin-top:60px;
+	margin-bottom:15px;
+}
+
+#fRow img
+{
+	width:50%;
+	margin:15px;
+}
+
+#insidefRow
+{
+	margin-top:110px;
+	display:flex;
+	flex-direction:column;
+}
+
+#insidefRow ul
+{
+	font-size:1.5em;
+	text-align:justify;
+	margin:70px;
+	margin-top:-10px;
+	list-style:none;
+}
+
+#insidefRow ul li
+{
+	margin-top:15px;
+}
+
+
+#sRow
+{
+	display:flex;
+	flex-direction:row;
+}
+
+#sRow video
+{
+	width:48.35%;
+	margin:13px;
+	margin-top:-79px;	
+}
+
+#insidesRow
+{
+	width:100%;
+	margin-top:110px;
+}
+
+#insidesRow h1
+{
+	width:550px;
+	margin:auto;
+	border-bottom:2px solid #b2b2b2;
+}
+
+#insidesRow table
+{
+	font-size:1.5em;
+	width:470px;
+	margin:auto;
+	margin-top:20px;
+}
+
+#insidesRow table tr
+{
+	margin-top:30px;
+	margin-left:30px;
+}
+
+#insidesRow table tr td
+{
+	width:150px;
+	
+}
+
+#insidesRow table tr td a
+{
+	text-decoration:underline;
+	color:black;
+}
+
+#insidesRow p
+{
+	text-align:center;
+	font-size:1.5em;
+}
+
+#tRow
+{
+	display:flex;
+	flex-direction:row;
+}
+
+#tRow h1
+{
+	margin-left:15px;
+	border-bottom:2px solid #b2b2b2;
+	width:620px;
+	margin:auto;
+	margin-top:60px;
+	margin-bottom:15px;
+}
+
+#tedXlastImg
+{
+	width:50%;
+	margin:15px;
+	margin-top:-15px;
+	margin-left:-40px;
+}
+
+#insidetRow
+{
+	margin-top:110px;
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	margin:15px;
+}
+
+#insidetRow p
+{
+	text-align:center;
+	font-size:1.5em;	
+}
+
+#insidetRow a
+{
+	text-align:center;
+	font-size:1.3em;
+	font-family:"vampire";
+	text-decoration:none;
+	color:red;
+	margin:15px;
+	border-top:2px solid grey;
+	border-bottom:2px solid grey;
+	width:90px;
+	margin:auto;
+}
+
+.appDL
+{
+	display:flex;
+	flex-direction:row;
+	max-width:585px;
+}
+
+.appDL img 
+{
+	width:70px;
+	margin-left:-120px;
+}
+
+#goBack
+{
+	top:10px;
+	position:fixed;
+	width:57px;
+	height:55px;
+	border-radius:50%;
+	background-color:grey;
+}
+
+#goBack img
+{
+	position:fixed;
+	top:15px;
+	left:10px;
+	width:50px;
+}
